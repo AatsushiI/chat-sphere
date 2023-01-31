@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello React Router v6</h1>
       <Routes>
         <Route index element={<MainContent />}></Route>
         {/* <Route path="/setting" element={<Setting />}></Route>
